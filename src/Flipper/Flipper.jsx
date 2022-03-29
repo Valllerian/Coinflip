@@ -23,12 +23,12 @@ const Flipper = () => {
     }
   };
   return (
-    <div className=" ">
-      <div>Let`s flip a coin!</div>
+    <div className="shadow-xl border-2 border-[#f472b6] bg-white p-5 content-end rounded-md ">
+      <div className="mb-4 font-serif">Let`s flip a Cerbe-Coin!</div>
       <Coin coin={coin} />
-      <button onClick={(e) => flipCoin(e)}>Flip it!</button>
-      <div>
-        Out of {flips} flips, there have been {heads} heads and {tails} tails.
+      <button className="ease inline-block cursor-pointer rounded-full bg-[#fbcfe8] px-4 py-1 mt-8 mb-4 text-xl text-black transition duration-500 hover:bg-gray-200 shadow-xl  border-2 border-black font-serif" onClick={(e) => flipCoin(e)}>Flip it!</button>
+      <div className="font-serif">
+        Out of {flips} flips, there have been {heads} Cerbe-Heads and {tails} Cerbe-Tails.
       </div>
     </div>
   );

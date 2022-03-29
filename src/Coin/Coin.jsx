@@ -4,8 +4,8 @@ const Coin = (props) => {
   let coin = props.coin;
 
   return (
-    <div>
-      <img src={coin} alt="Coin heads" />
+    <div className="">
+      <img src={coin} alt="Coin heads" className="mx-auto"/>
     </div>
   );
 };
