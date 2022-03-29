@@ -31,7 +31,7 @@ const Flipper = () => {
       <div className="font-serif">
         Out of {flips} flips, there have been {heads} Cerbe-Heads and {tails} Cerbe-Tails.
       </div>
-      <div className="absolute bottom-0 left-0"><img src={Gif} alt="" /></div>
+      <div className="absolute bottom-0 left-0 max-w-sm   max-h-sm  "><img src={Gif} alt="" /></div>
     </div>
   );
 };
