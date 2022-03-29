@@ -1,15 +1,13 @@
-import React, {useState} from 'react'
-import Heads from './heads.jpeg'; // with import
-import Tails from './tails.jpeg'; // with import
+import React, { useState } from "react";
 
 const Coin = (props) => {
-    let coin = props.coin
-  
+  let coin = props.coin;
+
   return (
     <div>
-        <img src={coin} alt="Coin heads" />
+      <img src={coin} alt="Coin heads" />
     </div>
-  )
-}
+  );
+};
 
-export default Coin
+export default Coin;
