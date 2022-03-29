@@ -4,7 +4,7 @@ import Flipper from './Flipper/Flipper';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App grid place-items-center h-screen ">
       <Flipper />
     </div>
   );

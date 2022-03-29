@@ -23,7 +23,7 @@ const Flipper = () => {
     }
   };
   return (
-    <div>
+    <div className=" ">
       <div>Let`s flip a coin!</div>
       <Coin coin={coin} />
       <button onClick={(e) => flipCoin(e)}>Flip it!</button>
